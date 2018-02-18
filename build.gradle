@@ -12,13 +12,13 @@ repositories {
 }
 
 compileJava {
-    sourceCompatibility = '1.9'
-    targetCompatibility = '1.9'
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
 }
 
 compileTestJava {
-    sourceCompatibility = '1.9'
-    targetCompatibility = '1.9'
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
 }
 
 apply from: file('gradle/publish.gradle')
